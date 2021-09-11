@@ -18,7 +18,7 @@ const Search = ({ searchResults }) => {
     <div>
       <Head>
         <title>Airbnb</title>
-        <link rel="icon" href="https://play-lh.googleusercontent.com/1zfN_BL13q20v0wvBzMWiZ_sL_t4KcCJBeAMRpOZeT3p34quM-4-pO-VcLj8PJNXPA0" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header placeholder={`${location} | ${range} | ${noOfGuests} guests`} />
 
