@@ -3,6 +3,7 @@ import { useRouter } from "next/dist/client/router";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import InfoCard from "../components/InfoCard";
+import Head from "next/head";
 
 const Search = ({ searchResults }) => {
   const router = useRouter();
@@ -15,6 +16,10 @@ const Search = ({ searchResults }) => {
 
   return (
     <div>
+      <Head>
+        <title>Airbnb</title>
+        <link rel="icon" href="https://play-lh.googleusercontent.com/1zfN_BL13q20v0wvBzMWiZ_sL_t4KcCJBeAMRpOZeT3p34quM-4-pO-VcLj8PJNXPA0" />
+      </Head>
       <Header placeholder={`${location} | ${range} | ${noOfGuests} guests`} />
 
       <main className="flex">
